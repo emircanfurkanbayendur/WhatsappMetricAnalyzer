@@ -56,17 +56,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\Abstract\IMetricService.cs" />
+    <Compile Include="Business\Concrete\MetricService.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="DataAccess\Abstract\IChatFileHelper.cs" />
     <Compile Include="DataAccess\Concrete\ChatFileHelper.cs" />
+    <Compile Include="Entities\DTO\MetricsDTO.cs" />
     <Compile Include="Entities\Message.cs" />
+    <Compile Include="Presentation\Abstract\IPDFService.cs" />
+    <Compile Include="Presentation\Concrete\PDFService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Business\Abstract\" />
-    <Folder Include="Business\Concrete\" />
-    <Folder Include="Presentation\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
