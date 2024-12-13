@@ -15,6 +15,7 @@ namespace WhatsAppMetricAnalyzer
         {
             _serviceProvider = serviceProvider;
 
+
         }
 
         [STAThread]
